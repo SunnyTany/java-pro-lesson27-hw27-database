@@ -1,5 +1,4 @@
-SELECT * FROM users;
-
-DELETE FROM users WHERE name = 'Bob';
-
-SELECT * FROM users;
+SINSERT INTO users (name, age, email) VALUES
+('John', 30, 'john@example.com'),
+('Alice', 25, 'alice@example.com'),
+('Bob', 35, 'bob@example.com');
